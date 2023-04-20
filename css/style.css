@@ -10,6 +10,14 @@
     display: flex;
 }
 
+.col{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
 .wrap{
     flex-wrap: wrap;
     row-gap: 1rem;
@@ -57,6 +65,13 @@
     background-color: bisque;
     height: 50px;
 }
+
+.development{
+    background-color: #9593e6;
+    height: 500px;
+    width: 100%;
+}
+
 /*tag selection*/
 
 nav img{
