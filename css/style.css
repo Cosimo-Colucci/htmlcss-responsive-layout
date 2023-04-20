@@ -64,13 +64,6 @@
 
 }
 
-
-/*tag selection*/
-
-nav img{
-   /* width: 80%; */
-}
-
 .badge{
     width: 100%;
     /*da rimuovere*/
@@ -79,6 +72,31 @@ nav img{
 }
 
 
+
+
+/*tag selection*/
+
+nav img{
+   /* width: 80%; */
+}
+
+div.card{
+    /*da rimuovere*/
+    height: 500px;
+    background-color: rgb(83, 70, 54);
+}
+
+div.card-face{
+    width: 368px;
+    height: 368px;
+}
+
+img.testimonial{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 3rem;
+}
 /*ID selection*/
 #planning1{
     height: 100%;
