@@ -6,10 +6,21 @@
     box-sizing: border-box;
 }
 
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
 .margin{
     margin: 0 auto;
 }
 
+.no-style{
+    list-style: none;
+}
 
 /*Specific Utility*/
 
@@ -29,3 +40,6 @@
 
 /*tag selection*/
 
+nav img{
+   /* width: 80%; */
+}
