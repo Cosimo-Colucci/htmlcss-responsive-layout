@@ -12,7 +12,7 @@
 
 .wrap{
     flex-wrap: wrap;
-    gap: 1rem;
+    row-gap: 1rem;
 }
 
 .space-between{
@@ -51,7 +51,7 @@
     background-color: blue;
 }
 
-.singol-badge{
+.badge{
     width: 100%;
     /*da rimuovere*/
     background-color: bisque;
@@ -61,4 +61,18 @@
 
 nav img{
    /* width: 80%; */
+}
+
+
+/*Media Query*/
+
+@media screen and (min-width: 480px) {
+
+    .badge{
+        width: calc(100% / 3 - 1rem);
+    }
+
+    .badge-big{
+        width: calc((100% / 3 - .2rem) * 2);
+    }
 }
