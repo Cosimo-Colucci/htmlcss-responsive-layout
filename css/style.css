@@ -41,22 +41,14 @@
 .container-h{
     background-color: #0084fd;
     width: 100%;
-    /*da rimuovere*/
-    height: 100px;
 }
 
 .container{
     width: 80%;
-    /*da rimuovere*/
-    height: 100px;
-    background-color: red;
 }
 
 /*Main*/
 .badges{
-    /*da rimuovere*/
-    height: 100px;
-    background-color: blue;
 }
 
 .badge{
