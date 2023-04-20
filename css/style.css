@@ -10,6 +10,10 @@
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -24,6 +28,7 @@
 
 /*Specific Utility*/
 
+/*Header*/
 .container-h{
     background-color: #0084fd;
     width: 100%;
@@ -38,6 +43,19 @@
     background-color: red;
 }
 
+/*Main*/
+.badges{
+    /*da rimuovere*/
+    height: 100px;
+    background-color: blue;
+}
+
+.singol-badge{
+    width: 100%;
+    /*da rimuovere*/
+    background-color: bisque;
+    height: 50px;
+}
 /*tag selection*/
 
 nav img{
