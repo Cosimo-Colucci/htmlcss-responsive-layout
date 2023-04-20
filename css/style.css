@@ -51,7 +51,7 @@
 .badges{
 }
 
-.badge{
+.badge-devide{
     width: 100%;
     /*da rimuovere*/
     background-color: bisque;
@@ -60,9 +60,10 @@
 
 .development{
     background-color: #9593e6;
-    height: 500px;
     width: 100%;
+
 }
+
 
 /*tag selection*/
 
@@ -70,16 +71,44 @@ nav img{
    /* width: 80%; */
 }
 
+.badge{
+    width: 100%;
+    /*da rimuovere*/
+    background-color: bisque;
+    height: 50px;
+}
+
+
+/*ID selection*/
+#planning1{
+    height: 100%;
+    width: 100%;
+}
 
 /*Media Query*/
 
 @media screen and (min-width: 480px) {
 
-    .badge{
+    .badge-devide{
         width: calc(100% / 3 - 1rem);
     }
 
     .badge-big{
         width: calc((100% / 3 - .2rem) * 2);
     }
+
+}
+
+
+@media screen and (min-width: 780px) {
+
+    .stategic{
+        display: flex;
+    }
+
+    
+    .badge{
+        
+    }
+    
 }
