@@ -169,6 +169,8 @@ div.card{
     background-color: #9792e4;
     margin: 1rem;
     padding: 1rem;
+    
+    border-radius: 28px;
 }
 
 
@@ -256,7 +258,6 @@ section.footer{
 
     div.card{
         display: flex;
-        border-radius: 28px;
     }
 
     .img.testimonial{
