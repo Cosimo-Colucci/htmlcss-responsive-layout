@@ -171,6 +171,18 @@ div.about-30{
     div.badge{
         width: calc((100% / 2) - 1rem);
     }
+
+    div.about-us{
+        display: flex;
+    }
+
+    div.about-70{
+        width: 70%;
+    }
+
+    div.about-30{
+        width: 30%;
+    }
 }
 
 
