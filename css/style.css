@@ -49,6 +49,7 @@
 .container-h{
     background-color: #0084fd;
     width: 100%;
+    padding: 1rem 0;
 }
 
 .container{
@@ -84,10 +85,14 @@
 
 
 /*tag selection*/
-
-nav img{
-   /* width: 80%; */
+nav span i {
+    color: white;
+    padding-top: .5rem;
 }
+nav ul{
+    display: none;
+}
+
 
 div.card{
     background-color: #9792e4;
@@ -206,6 +211,13 @@ section.footer{
 
 
 @media screen and (min-width: 780px) {
+    nav span {
+        display: none;
+    }
+
+    nav ul{
+        display: flex;
+    }
 
     .stategic{
         display: flex;
