@@ -24,7 +24,7 @@
 }
 
 .center{
-    justify-content: center;
+    align-items: center;
 }
 
 .space-between{
@@ -89,10 +89,22 @@ nav span i {
     color: white;
     padding-top: .5rem;
 }
+
 nav ul{
+    align-items: center;
     display: none;
+    color: white;
 }
 
+nav ul li{
+    margin: 0 1rem;
+}
+
+ 
+nav ul li button{
+    padding: .5rem 1rem;
+    border-radius: 18px;
+}
 
 div.card{
     background-color: #9792e4;
