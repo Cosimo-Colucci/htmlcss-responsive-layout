@@ -31,6 +31,10 @@
     justify-content: space-between;
 }
 
+.j-center{
+    justify-content: center;
+}
+
 .gap1{
     gap: 1rem;
 }
@@ -56,15 +60,24 @@
     width: 80%;
 }
 
-/*Main*/
-.badges{
-}
-
+/*Main Application Section*/
 .badge-devide{
     width: 100%;
-    /*da rimuovere*/
-    background-color: bisque;
-    height: 150px;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    background-color: #b5ddff;
+    border-radius: 18px;
+}
+
+.button{
+    margin: 1.5rem 0;
+    padding: .5rem 2.5rem;
+    border-radius: 18px;
+    background-color: #0084fd;
+    color: white;
+}
+.img-phone{
+    width: 100%;
+
 }
 
 .development{
@@ -77,7 +90,7 @@
     width: 100%;
     margin-top: 5rem;
     /*da rimuovere*/
-    background-color: bisque;
+    background-color: #b5ddff;
     height: 300px;
 }
 
@@ -85,6 +98,22 @@
 
 
 /*tag selection*/
+
+section{
+    margin-top: 3rem;
+}
+
+section.application h2{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #0084fd;
+}
+
+section.application p{
+    margin-bottom: 1rem;
+    color: #5a6e7f;
+}
+
 nav span i {
     color: white;
     padding-top: .5rem;
@@ -112,9 +141,7 @@ div.card{
     padding: 1rem;
 }
 
-div.card-face{
 
-}
 
 img.testimonial{
 
@@ -229,6 +256,10 @@ section.footer{
 
     nav ul{
         display: flex;
+    }
+
+    .badge-big{
+        flex-direction: row;
     }
 
     .stategic{
