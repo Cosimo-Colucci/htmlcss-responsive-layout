@@ -104,28 +104,7 @@
 
 
 /*tag selection*/
-
-section{
-    margin-top: 3rem;
-}
-
-section.application h2{
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    color: #0084fd;
-}
-
-section.application p{
-    margin-bottom: 1rem;
-    color: #5a6e7f;
-}
-
-section.application span>i{
-    font-size: 4rem;
-    color: #0084fd;
-}
-
-
+/*Header*/
 nav span i {
     color: white;
     padding-top: .5rem;
@@ -147,6 +126,45 @@ nav ul li button{
     border-radius: 18px;
 }
 
+/*Main*/
+section{
+    margin-top: 3rem;
+}
+
+section.application h2{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #0084fd;
+}
+
+section.application p{
+    margin-bottom: 1rem;
+    color: #5a6e7f;
+}
+
+section.application span>i{
+    font-size: 4rem;
+    color: #0084fd;
+}
+
+
+section.development{
+    padding: 2rem;
+}
+div.planning-55{
+    margin-bottom: 2rem;
+}
+div.planning-45{
+    background-color: white;
+    border-radius: 35px;
+}
+div.planning-text i{
+    background-color: #9593e6;
+    padding-top: .4rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
 div.card{
     background-color: #9792e4;
     margin: 1rem;
@@ -214,7 +232,12 @@ section.footer{
 }
 
 /*ID selection*/
-#planning1{
+#planning1-img{
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+}
+#planning2-img{
     height: 100%;
     width: 100%;
 }
@@ -274,9 +297,19 @@ section.footer{
         flex-direction: row;
     }
 
-    .stategic{
-        display: flex;
+
+    div.stategic{
+        flex-direction: row;
         width: 65%;
+    }
+
+    div.planning-55{
+        width: 55%;
+    }
+
+    div.planning-45{
+        width: 45%;
+        margin-top: 4rem;
     }
 
     div.benefit-badges{
