@@ -137,6 +137,25 @@ div.about-30{
     border: 1px solid rgb(192, 74, 74);
 }
 
+section.get-start{
+    width: 100%;
+    background-color: #9792e4;
+
+    /*da rimuovere*/
+    height: 600px;
+}
+
+div.get-start{
+    /*da rimuovere*/
+    border: 1px solid red;
+    height: 100%;
+}
+
+section.footer{
+    width: 100%;
+    min-height: 300px;
+    background-color: #333333;
+}
 
 /*ID selection*/
 #planning1{
