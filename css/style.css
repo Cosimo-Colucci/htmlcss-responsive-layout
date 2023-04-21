@@ -23,8 +23,16 @@
     row-gap: 1rem;
 }
 
+.center{
+    justify-content: center;
+}
+
 .space-between{
     justify-content: space-between;
+}
+
+.gap1{
+    gap: 1rem;
 }
 
 .margin{
@@ -55,7 +63,7 @@
     width: 100%;
     /*da rimuovere*/
     background-color: bisque;
-    height: 50px;
+    height: 150px;
 }
 
 .development{
@@ -66,9 +74,10 @@
 
 .badge{
     width: 100%;
+    margin-top: 5rem;
     /*da rimuovere*/
     background-color: bisque;
-    height: 50px;
+    height: 300px;
 }
 
 
@@ -81,24 +90,31 @@ nav img{
 }
 
 div.card{
-    /*da rimuovere*/
-    height: 500px;
-    background-color: rgb(83, 70, 54);
+    background-color: #9792e4;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 div.card-face{
-    width: 368px;
-    
-    height: 368px;
+
 }
 
 img.testimonial{
-    width: 100%;
 
-    height: 100%;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    padding: 3rem;
+    object-fit: cover;
+    
+    padding: 1rem;
 }
+
+section.benefit{
+    background-color: #9792e4;
+    width: 100%;    
+}
+
+
 /*ID selection*/
 #planning1{
     height: 100%;
@@ -117,9 +133,20 @@ img.testimonial{
         width: calc((100% / 3 - .2rem) * 2);
     }
 
-    .card-face,
-    .card-description{
-        display: inline-block;
+    .card{
+        display: flex;
+    }
+
+    .img.testimonial{
+        padding: 0;
+    }
+
+    div.benefit-badges{
+        justify-content: space-between;
+    }
+
+    div.badge{
+        width: calc((100% / 2) - 1rem);
     }
 }
 
@@ -131,9 +158,12 @@ img.testimonial{
         width: 65%;
     }
 
-    
-    .badge{
-        
+    div.benefit-badges{
+        justify-content: space-between;
+    }
+
+    div.badge{
+        width: calc((100% / 3) );
     }
     
 }
